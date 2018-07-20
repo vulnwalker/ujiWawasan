@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 277:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "KategoriSoalPageModule", function() { return KategoriSoalPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JawabSoalPageModule", function() { return JawabSoalPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__kategori_soal__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jawab_soal__ = __webpack_require__(102);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var KategoriSoalPageModule = /** @class */ (function () {
-    function KategoriSoalPageModule() {
+var JawabSoalPageModule = /** @class */ (function () {
+    function JawabSoalPageModule() {
     }
-    KategoriSoalPageModule = __decorate([
+    JawabSoalPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__kategori_soal__["a" /* KategoriSoalPage */],
+                __WEBPACK_IMPORTED_MODULE_2__jawab_soal__["a" /* JawabSoalPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__kategori_soal__["a" /* KategoriSoalPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__jawab_soal__["a" /* JawabSoalPage */]),
             ],
         })
-    ], KategoriSoalPageModule);
-    return KategoriSoalPageModule;
+    ], JawabSoalPageModule);
+    return JawabSoalPageModule;
 }());
 
-//# sourceMappingURL=kategori-soal.module.js.map
+//# sourceMappingURL=jawab-soal.module.js.map
 
 /***/ })
 
