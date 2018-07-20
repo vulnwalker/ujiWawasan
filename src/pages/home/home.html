@@ -1,0 +1,74 @@
+<!--Fist Screen-->
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+    <ion-icon class="icon-menu" name="menu"></ion-icon>
+  </button>
+      <ion-title><h4 >UJI WAWASAN</h4></ion-title>
+  </ion-navbar>
+</ion-header>
+<!--Fist Screen Content-->
+<ion-content>
+    <ion-card background-size text-left 
+    style="background-image: url('https://img00.deviantart.net/f963/i/2016/135/2/1/space_flat_wallpaper_by_trumpjunior-da2l9y8.png');
+           border-radius: 0% !important; 
+           border-bottom: 2px solid white;">
+        <div gallery-description>
+            <p gallery-subtitle>point</p>
+            <h2 gallery-title text-wrap>ASDASDASD</h2>
+        </div>
+    </ion-card>
+
+    <div background-size class="default-background">
+    <ion-grid>
+        <ion-row no-padding>
+        
+          <ion-col col-12 col-sm-6 col-md-12 col-lg-4 col-xl-3 (click)="Challenge()" [ngClass]="animateClass">
+                <ion-card background-size text-left 
+                style="background-image: url('assets/images/start.gif');border: 1px solid white;">
+                    <div gallery-description>
+                    </div>
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 [ngClass]="animateClass" >
+                <ion-card background-size text-left 
+                style="background-image: url('assets/images/user.png');border: 1px solid white;">
+                    <div gallery-description>
+                        <h2 gallery-title text-wrap class="color-black">Profile</h2>
+                    </div>
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 [ngClass]="animateClass" >
+                <ion-card background-size text-left 
+                style="background-image: url('assets/images/gift.png');border: 1px solid white;">
+                    <div gallery-description>
+                        <h2 gallery-title text-wrap class="color-black">Event</h2>
+                    </div>
+                </ion-card>
+            </ion-col>
+
+
+            <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 [ngClass]="animateClass" >
+                <ion-card background-size text-left 
+                style="background-image: url('assets/images/poin.png');border: 1px solid white;">
+                    <div gallery-description>
+                        <h2 gallery-title text-wrap class="color-black">Point</h2>
+                    </div>
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 [ngClass]="animateClass" >
+                <ion-card background-size text-left 
+                style="background-image: url('assets/images/history.png');border: 1px solid white;">
+                    <div gallery-description>
+                        <h2 gallery-title text-wrap class="color-black">History</h2>
+                    </div>
+                </ion-card>
+            </ion-col>
+
+        </ion-row>
+    </ion-grid>
+</div>
+</ion-content>

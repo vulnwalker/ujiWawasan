@@ -1,0 +1,80 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>KATEGORI SOAL</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<!--Theme Wizard Big Image With Text -->
+<ion-slides #wizardSlider  pager="true" >
+    <ion-slide background-size padding style="
+    background-color: #00d0ff !important;
+    background-blend-mode: multiply;
+    background-image: url('https://iphonewalls.net/wp-content/uploads/2016/08/Forest%20River%20Crossing%20Mountain%20Fog%20iPhone%206+%20HD%20Wallpaper.jpg')">
+        <!--Wizard Content -->
+        <div wizard-content>
+            <!--Wizard Subitem -->
+            <h1 wizard-title no-margin text-left [ngClass]="animateClass">Ilmu Pengetahuan Alam</h1>
+            <h3 wizard-subtitle no-margin text-left [ngClass]="animateClass">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h3>
+            <!--Wizard Title -->
+           
+        </div>
+    </ion-slide>
+
+    <ion-slide background-size padding style="
+    background-color: #00d0ff !important;
+    background-blend-mode: multiply;
+    background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_270126.jpg')">
+        <!--Wizard Content -->
+        <div wizard-content>
+            <!--Wizard Subitem -->
+            <h1 wizard-title no-margin text-left [ngClass]="animateClass">Sejarah</h1>
+            <h3 wizard-subtitle no-margin text-left [ngClass]="animateClass">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h3>
+            <!--Wizard Title -->
+           
+        </div>
+    </ion-slide>
+
+    <ion-slide background-size padding style="
+    background-color: #00d0ff !important;
+    background-blend-mode: multiply;
+    background-image: url('http://kb4images.com/images/library-wallpaper/36525040-library-wallpaper.jpg')">
+        <!--Wizard Content -->
+        <div wizard-content>
+            <!--Wizard Subitem -->
+            <h1 wizard-title no-margin text-left [ngClass]="animateClass">Matematika</h1>
+            <h3 wizard-subtitle no-margin text-left [ngClass]="animateClass">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h3>
+            <!--Wizard Title -->
+           
+        </div>
+    </ion-slide>
+
+    <ion-slide background-size padding style="
+    background-color: #00d0ff !important;
+    background-blend-mode: multiply;
+    background-image: url('http://mobw.org/wp-content/uploads/2017/04/Money-Wallpaper-Hd-Android-414x736.jpg')">
+        <!--Wizard Content -->
+        <div wizard-content>
+            <!--Wizard Subitem -->
+            <h1 wizard-title no-margin text-left [ngClass]="animateClass">Politik</h1>
+            <h3 wizard-subtitle no-margin text-left [ngClass]="animateClass">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h3>
+            <!--Wizard Title -->
+          
+        </div>
+    </ion-slide>
+
+</ion-slides>
+
+
+
+<!--Button section-->
+<div>
+    <button [ngClass]="animateClassbtn" (click)="Soal()" button-wizard text-center text-capitalize button-clear clear ion-button style="background: #33e9bc;">
+       Mulai Soal
+    </button>
+</div>
+</ion-content>

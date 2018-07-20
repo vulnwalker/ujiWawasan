@@ -1,0 +1,77 @@
+<ion-menu [content]="content">
+  <ion-header>
+      <div header-background-image padding 
+        style="background-image:url('https://www.planwallpaper.com/static/images/3865967-wallpaper-full-hd_XNgM7er.jpg'); 
+              padding-top: 15%;
+      ">
+       <h2 ion-text color="light" header-title>Taufan Tritama Putra</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      </div>
+  </ion-header>
+
+  <ion-content style="font-family: 'Lato', sans-serif;">
+    <ion-list no-margin>
+        <button menuClose ion-item item-title main-menu no-lines border>
+          <ion-icon icon-small item-left>
+            <i class="lnr lnr-user"></i>
+          </ion-icon>
+            <ion-label class="label label-md" style="color:#1f2056;">
+              My Profile
+            </ion-label>
+        </button>
+    </ion-list>
+
+    <ion-list no-margin>
+      <button menuClose ion-item item-title main-menu no-lines border>
+        <ion-icon icon-small item-left>
+          <i class="lnr lnr-star"></i>
+        </ion-icon>
+          <ion-label class="label label-md" style="color:#1f2056;">
+            My Point
+          </ion-label>
+          <ion-badge item-end class="badge-dark">1.000.000</ion-badge>
+      </button>
+  </ion-list>
+
+  <ion-list no-margin>
+      <button menuClose ion-item item-title main-menu no-lines border>
+        <ion-icon icon-small item-left>
+          <i class="lnr lnr-gift"></i>
+        </ion-icon>
+          <ion-label class="label label-md" style="color:#1f2056;">
+           Event
+          </ion-label>
+      </button>
+  </ion-list>
+
+  <ion-list no-margin>
+      <button menuClose ion-item item-title main-menu no-lines border>
+        <ion-icon icon-small item-left>
+          <i class="lnr lnr-cog"></i>
+        </ion-icon>
+          <ion-label class="label label-md" style="color:#1f2056;">
+            Settings
+          </ion-label>
+      </button>
+  </ion-list>
+
+
+  <ion-list no-margin>
+      <button menuClose ion-item item-title main-menu no-lines border>
+        <ion-icon icon-small item-left>
+          <i class="lnr lnr-exit"></i>
+        </ion-icon>
+          <ion-label class="label label-md" style="color:#1f2056;">
+            Sign Out
+          </ion-label>
+      </button>
+  </ion-list>
+
+</ion-content>
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+
+
+<!---Settings Main Header-->
